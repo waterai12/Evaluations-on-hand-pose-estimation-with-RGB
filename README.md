@@ -36,39 +36,40 @@ There are two types of evaluation metrics that are widely used for hand pose est
 ### Results on RHD dataset
 |     Methods     |   3D PCK   |              EPE               |
 | :-------------: | :--------: | :----------------------------: |
-|     DHPE[1]     | 0.926(50%) |               -                |
 |     CPM[2]      |            |   5.223(pixel)(2D)(320,320)    |
-| GAN(Mueller)[3] |            |                                |
-|     Umar[4]     |            | 3.57(pixel)(2D)  13.41(mm)(3D) |
-| Weakly(cai)[5]  | 0.887(50%) |                                |
-|     dVAE[6]     | 0.849(50%) |         19.95(mm)(3D)          |
 |     Zimm[7]     | 0.675(50%) |                                |
 |    Spurr[8]     | 0.849(50%) |         21.15(mm)(3D)          |
+|     dVAE[6]     | 0.849(50%) |         19.95(mm)(3D)          |
+|     Umar[4]     |            | 3.57(pixel)(2D)  13.41(mm)(3D) |
+| Weakly(cai)[5]  | 0.887(50%) |                                |
 |     HAMR[9]     | 0.901(50%) |                                |
 |    Graph[10]    | 0.92(50%)  |                                |
+|     DHPE[1]     | 0.926(50%) |               -                |
 ### Results on SHD dataset
 |     Methods     |   3D PCK   |            EPE            |
 | :-------------: | :--------: | :-----------------------: |
-|     DHPE[1]     | 0.995(50%) |             -             |
+
 |     CPM[2]      |     -      | 5.801(pixel)(2D)(640,480) |
 | GAN(Mueller)[3] | 0.965(50%) |                           |
+| ADnane[11]      |            | 9.76(mm) |
+|    Spurr[8]     | 0.983(50%) |         9.49(mm)          |
+|     Zimm[7]     | 0.986(50%) |                           |
+|     dVAE[6]     | 0.991(50%) |       8.66(mm)(3D)        |
 |     Umar[4]     | 0.994(50%) |                           |
 | Weakly(cai)[5]  | 0.994(50%) |                           |
-|     dVAE[6]     | 0.991(50%) |       8.66(mm)(3D)        |
-|     Zimm[7]     | 0.986(50%) |                           |
-|    Spurr[8]     | 0.983(50%) |         9.49(mm)          |
 |     HAMR[9]     | 0.995(50%) |                           |
+|     DHPE[1]     | 0.995(50%) |             -             |
 |    Graph[10]    | 0.998(50%) |         6.37(mm)          |
-| ADnane[11]      |            | 9.76(mm) |
+
 ### Results on DO dataset
 | Methods |   3D PCK   |          EPE           |
 | :-----: | :--------: | :--------------------: |
-| DHPE[1] | 0.65(100%) |           -            |
 | CPM[2]  |            | 14.593(pixel)(2D)(640,320) |
 | GANerated[3] | 0.56(100%) |                       |
+| DHPE[1] | 0.65(100%) |           -            |
 | Umar[4] | 0.71(100%) |                       |
-| Zimm[7] |  | 34.75 |
 | Spurr[8] |                      | 40.20 |
+| Zimm[7] |  | 34.75 |
 | HAMR[9] | 0.82(50%)(without O) |                       |
 | ADnane[11] |  | 25.53(mm) |
 <a href="#evaluations-on-hand-pose-estimation with RGB">[back to top]</a>
