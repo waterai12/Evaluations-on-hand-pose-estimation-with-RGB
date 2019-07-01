@@ -1,5 +1,5 @@
 # Evaluations on hand pose estimation with RGB 
-[我的博客](https://blog.csdn.net/qq_32896115)  
+ 
 ## Description
 This project provides codes to evaluate performances of hand pose estimation on several public RGB datasets, including RHD, Dexter+Object, Stereo hand pose dataset. We collect predicted labels of some prior work which are available online and visualize the performances.
 ## Datasets
@@ -86,4 +86,4 @@ There are two types of evaluation metrics that are widely used for hand pose est
 * [10] 3D Hand Shape and Pose Estimation from a Single RGB Image, Liuhao Ge, Zhou Ren, Yuncheng Li, Zehao Xue, Yingying Wang, Jianfei Cai, Junsong Yuan,CVPR 2019.
 * [11] 3D Hand Shape and Pose from Images in the Wild,Adnane Boukhayma, Rodrigo de Bem, Philip H.S. Torr,CVPR 2019.
 
-
+[我的博客](https://blog.csdn.net/qq_32896115) 
