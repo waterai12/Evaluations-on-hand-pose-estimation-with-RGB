@@ -5,10 +5,15 @@ This project provides codes to evaluate performances of hand pose estimation on 
 ## Datasets
 
 * **The rendered hand pose dataset (RHD)**  
+
 contains 43,986 synthetically generated images showing 20 differentcharactersperforming39actionswhere41,258images are provided for training while the remaining 2,728 frames are reserved for testing [68]. Both datasets are recorded under varying backgrounds and lighting conditions and they are provided with the ground-truth 2D and 3D skeleton positions of 21 keypoints (1 for palm and 4 for each ﬁnger), on which the accuracy is measured. 
+
 * **Stereo hand pose dataset (STB)** 
+
 provides frames of 12 stereo video sequenceseachrecordingasinglepersonperformingvarious gestures [66]. It contains total 36,000 frames. Among them, 30,000 frames sampled from 10 videos constitute a training set while the remaining 6,000 frames (from 2 videos) are used for testing.
+
 * **The Dexter+Object dataset (DO)** 
+
 contains 3,145 video frames sampled from 6 video sequences recording a single person interacting with an object
 
 ## Evaluation metric
@@ -50,10 +55,9 @@ There are two types of evaluation metrics that are widely used for hand pose est
 
 |     Methods     |   3D PCK   |            EPE            |
 | :-------------: | :--------: | :-----------------------: |
-
 |     CPM[2]      |     -      | 5.801(pixel)(2D)(640,480) |
 | GAN(Mueller)[3] | 0.965(50%) |                           |
-| ADnane[11]      |            | 9.76(mm) |
+| ADnane[11] |            | 9.76(mm) |
 |    Spurr[8]     | 0.983(50%) |         9.49(mm)          |
 |     Zimm[7]     | 0.986(50%) |                           |
 |     dVAE[6]     | 0.991(50%) |       8.66(mm)(3D)        |
@@ -62,6 +66,7 @@ There are two types of evaluation metrics that are widely used for hand pose est
 |     HAMR[9]     | 0.995(50%) |                           |
 |     DHPE[1]     | 0.995(50%) |             -             |
 |    Graph[10]    | 0.998(50%) |         6.37(mm)          |
+
 
 ### Results on DO dataset
 | Methods |   3D PCK   |          EPE           |
